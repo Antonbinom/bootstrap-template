@@ -1,0 +1,73 @@
+*
+	box-sizing: border-box
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+	-webkit-tap-highlight-color: transparent
+h1, h2, h3, h4, h5, p
+	margin: 0
+body
+	font-family: 'Montserrat', sans-serif
+	font-weight: 400
+	margin: 0
+img
+	max-width: 100%
+a
+	text-decoration: none
+	color: inherit
+	cursor: pointer
+.container
+	max-width: 1200px
+	margin: auto
+.suptitle
+	font-family: 'Palatino Linotype', sans-serif
+	font-style: italic
+.button
+	padding: 16px 43px
+	font-size: 17px
+	font-weight: 600
+	text-transform: uppercase
+	border-radius: 25px
+	color: #ffffff
+	&-pink
+		background-color: $pink
+	&-purple
+		background-color: $purple
+	&-link
+		display: inline-block
+		margin-top: 52px
+		margin-left: 12px
+		padding: 15px 25px 10px
+		font-size: 15px
+		font-weight: 600
+		text-transform: uppercase
+		background-color: $pink
+		border-radius: 10px
+		box-shadow: 0 10px 0 #ff5990
+		transition: all .5s
+		cursor: pointer
+		color: #ffffff
+		&:hover
+			box-shadow: 0 5px 0 #ff5990
+			color: #ffffff
+		&:active
+			color: #ffffff
+.scrollToTop
+	display: none
+	position: fixed
+	bottom: 50px
+	right: 50px
+	z-index: 100
+	width: 50px
+	height: 50px
+	border-radius: 5px
+	border: none
+	font-size: 32px
+	color: #fff
+	transition: all 0.5s
+	cursor: pointer
+	background-color: #c12b78
+	&:hover
+		background-color: #fff
+		color: #c12b78
+		text-decoration: none
+		outline: none
+		border: 1px solid #c12b78

@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/baguetteBox.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Загрузка...</span>
+    </div>
+  </div>
+  <header class="header">
+    <nav class="header__top navbar navbar-expand-lg">
+      <div class="header__top-container container">
+        <img src="img/logo.svg" alt="Image: Logo" class="header-logo" />
+        <a class="header-brand navbar-brand" href="#">BlueRex</a>
+        <button class="header__top-button navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav class="header__nav collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="header__navbar navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">Faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="header__nav-link nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- /.nav -->
+    <div class="header__main">
+      <div class="header__main-container container-fluid">
+        <div class="header__main-info">
+          <h2 class="header-suptitle suptitle">We are best and creative agency</h2>
+          <h1 class="header-title">We turn creative ideas into your business.</h1>
+          <p class="header-text">
+            Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese
+            terds.
+          </p>
+        </div>
+        <div class="header__main-buttons">
+          <button type="button" class="header-button--story button btn button-pink rounded-pill">Our Story</button>
+          <button type="button" class="header-button--more button btn button-purple rounded-pill">Read More</button>
+        </div>
+        <!-- /.header__main-buttons -->
+      </div>
+      <!-- /.container-fluid -->
+    </div>
+    <!-- /.header__main -->
+  </header>
+  <!-- /.header -->
+  <section class="about">
+    <div class=" about__container container">
+      <div class="about-content row">
+        <div class="about__info mb-5 col-md-12 col-lg-6">
+          <h3 class="about-suptitle suptitle">Dream Big Inspire the World</h3>
+          <h2 class="about-title">We turn creative ideas into your business.</h2>
+          <!-- Nav tabs -->
+          <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="about-link nav-link active" id="webdesign-tab" data-bs-toggle="tab"
+                data-bs-target="#webdesign" type="button" role="tab" aria-controls="webdesign" aria-selected="true">
+                Webdesign
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="about-link nav-link" id="mobileapp-tab" data-bs-toggle="tab" data-bs-target="#mobileapp"
+                type="button" role="tab" aria-controls="mobileapp" aria-selected="false">
+                Mobile app
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="about-link nav-link" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding"
+                type="button" role="tab" aria-controls="branding" aria-selected="false">
+                Branding
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="webdesign" role="tabpanel" aria-labelledby="webdesign-tab">
+              <p class="about-text">
+                Webdesign Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sequi mollitia quae culpa quasi
+                magnam consectetur repudiandae voluptatibus vero asperiores? Commodi explicabo ducimus fugiat iusto
+                placeat architecto repellendus voluptates iste.
+              </p>
+              <a href="#" class="button-link about-button">Read more</a>
+            </div>
+            <div class="tab-pane" id="mobileapp" role="tabpanel" aria-labelledby="mobileapp-tab">
+              <p class="about-text">
+                Mobile app Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sequi mollitia quae culpa quasi
+                magnam consectetur repudiandae voluptatibus vero asperiores? Commodi explicabo ducimus fugiat iusto
+                placeat architecto repellendus voluptates iste.
+              </p>
+              <a href="#" class="button-link about-button">Read more</a>
+            </div>
+            <div class="tab-pane" id="branding" role="tabpanel" aria-labelledby="branding-tab">
+              <p class="about-text">
+                Branding Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sequi mollitia quae culpa quasi
+                magnam consectetur repudiandae voluptatibus vero asperiores? Commodi explicabo ducimus fugiat iusto
+                placeat architecto repellendus voluptates iste.
+              </p>
+              <a href="#" class="button-link about-button">Read more</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="about__image col-lg-5">
+          <img src="img/watch.png" alt="Image: Apple Watch" class="">
+        </div>
+      </div>
+  </section>
+  <section class="increase">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-4 increase__item">
+          <div class="increase__image">
+            <img src="img/megaphone.png" alt="Image: Megaphone" class="increase-icon">
+          </div>
+          <strong class="increase-number">500+</strong>
+          <h4 class="increase-name"><span class="increase-span">Successfully</span> completed projects</h4>
+          <p class="increase-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+            rhoncus lorem ipsum ese terds. </p>
+        </div>
+        <div class="col-md-4 increase__item">
+          <div class="increase__image">
+            <img src="img/megaphone.png" alt="Image: Megaphone" class="increase-icon">
+          </div>
+          <strong class="increase-number">254+</strong>
+          <h4 class="increase-name"><span class="increase-span">Highly</span> specialised</h4>
+          <p class="increase-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+            rhoncus lorem ipsum ese terds. </p>
+        </div>
+        <div class="col-md-4 increase__item">
+          <div class="increase__image">
+            <img src="img/megaphone.png" alt="Image: Megaphone" class="increase-icon">
+          </div>
+          <strong class="increase-number">45+</strong>
+          <h4 class="increase-name"><span class="increase-span">Awards</span> around the world</h4>
+          <p class="increase-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+            rhoncus lorem ipsum ese terds. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="letsgrow">
+    <div class="container">
+      <div class="row">
+        <div class="letsgrow__wrapper col-md-12">
+          <h3 class="suptitle letsgrow-suptitle">Let's Grow Together</h3>
+          <h3 class="letsgrow-title">We turn creative ideas into your business.</h3>
+          <p class="letsgrow-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+            rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. </p>
+          <a href="#" class="button-link letsgrow-button">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="container">
+      <div class="services__wrapper row justify-content-md-center">
+        <div class="col-md-10 col-lg-6 services__info">
+          <h3 class="services-suptitle suptitle">We are best and creative agency</h3>
+          <h2 class="services-title">We turn creative ideas
+            into your business.</h2>
+          <p class="services-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+            rhoncus lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim
+            ut rhoncus lorem ipsum ese terds.</p>
+          <div class="row">
+            <div class="col-md-6 services__card">
+              <img src="img/megaphone-2.svg" alt="Image: message bubbles" class="services__card-icon">
+              <h4 class="services__card-title">Graphic Design</h4>
+              <p class="services__card-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+                enim ut rhoncus lorem ipsum ese terds.</p>
+              <a href="#" class="button-link services__card-button">Read more</a>
+            </div>
+            <div class="col-md-6 services__card">
+              <img src="img/megaphone-2.svg" alt="Image: message bubbles" class="services__card-icon">
+              <h4 class="services__card-title">Graphic Design</h4>
+              <p class="services__card-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales
+                enim ut rhoncus lorem ipsum ese terds.</p>
+              <a href="#" class="button-link services__card-button">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 services__video">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e3nY9zxq_Ts" allowfullscreen></iframe>
+            <div id="videoPlayBtn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 text-center mb-5">
+          <h3 class="work-title">Our Recent Work</h3>
+          <p class="work-text">Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus
+            lorem ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut
+            rhoncus lorem ipsum ese terds.Lorem ipsum dolor sit am et, consec tetur adipi scing elit. </p>
+        </div>
+        <div class="col-md-12">
+          <ul class="nav nav-pills justify-content-center" id="myTab-gallery" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="webdesign-tab" data-bs-toggle="tab" data-bs-target="#webdesign2"
+                type="button" role="tab" aria-controls="webdesign2" aria-selected="true">
+                Webdesign
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="mobileapp-tab2" data-bs-toggle="tab" data-bs-target="#mobileapp2"
+                type="button" role="tab" aria-controls="mobileapp2" aria-selected="false">
+                Mobile app
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="branding-tab2" data-bs-toggle="tab" data-bs-target="#branding2" type="button"
+                role="tab" aria-controls="branding2" aria-selected="false">
+                Branding
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="webdesign2" role="tabpanel" aria-labelledby="webdesign-tab2">
+              <div class="row gallery justify-content-center">
+                <div class="col-md-6 col-xl-4 gallery-item">
+                  <a href="img/1.jpg">
+                    <img src="img/1.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/2.jpg">
+                    <img src="img/2.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/3.jpg">
+                    <img src="img/3.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/4.jpg">
+                    <img src="img/4.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/5.jpg">
+                    <img src="img/5.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/6.jpg">
+                    <img src="img/6.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/7.jpg">
+                    <img src="img/7.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/8.jpg">
+                    <img src="img/8.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/9.jpg">
+                    <img src="img/9.jpg" alt="Image: Work">
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="button-link about-button">Read more</a>
+            </div>
+            <div class="tab-pane" id="mobileapp2" role="tabpanel" aria-labelledby="mobileapp-tab2">
+              <div class="row gallery justify-content-center">
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/7.jpg">
+                    <img src="img/7.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/2.jpg">
+                    <img src="img/2.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/3.jpg">
+                    <img src="img/3.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/4.jpg">
+                    <img src="img/4.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/5.jpg">
+                    <img src="img/5.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/6.jpg">
+                    <img src="img/6.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/1.jpg">
+                    <img src="img/1.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/8.jpg">
+                    <img src="img/8.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/9.jpg">
+                    <img src="img/9.jpg" alt="Image: Work">
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="button-link about-button">Read more</a>
+            </div>
+            <div class="tab-pane" id="branding2" role="tabpanel" aria-labelledby="branding-tab2">
+              <div class="row gallery justify-content-center">
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/1.jpg">
+                    <img src="img/1.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/2.jpg">
+                    <img src="img/2.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/3.jpg">
+                    <img src="img/3.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/5.jpg">
+                    <img src="img/5.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/4.jpg">
+                    <img src="img/4.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/6.jpg">
+                    <img src="img/6.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/7.jpg">
+                    <img src="img/7.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/8.jpg">
+                    <img src="img/8.jpg" alt="Image: Work">
+                  </a>
+                </div>
+                <div class="col-sm-4 gallery-item">
+                  <a href="img/9.jpg">
+                    <img src="img/9.jpg" alt="Image: Work">
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="button-link about-button">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="brands">
+    <div class="container">
+      <div class="row">
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-8.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-1.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-7.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-6.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-5.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-4.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-3.png" alt="Image: Brand"></div>
+        <div class="brands-item col-sm-6 col-lg-3"><img src="img/brand-2.png" alt="Image: Brand"></div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="carousel-caption reviews__info">
+                  <h3 class="suptitle">Our Happy Client
+                  </h3>
+                  <h2>Testimonials</h2>
+                  <figure>
+                    <blockquote class="blockquote">
+                      <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+                        ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      <img src="img/Stars.png" alt="Image: Rating" class="">
+                      <cite title="Source Title">Mr. John Doe </cite>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!-- /.col-sm-7 -->
+              <div class="col-md-5">
+                <img src="img/Client.png" alt="Image: Client">
+              </div>
+              <!-- /.col-sm-5 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="carousel-caption reviews__info">
+                  <h3 class="suptitle">Our Happy Client
+                  </h3>
+                  <h2>Testimonials</h2>
+                  <figure>
+                    <blockquote class="blockquote">
+                      <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+                        ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      <img src="img/Stars.png" alt="Image: Rating" class="">
+                      <cite title="Source Title">Mr. John Doe </cite>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!-- /.col-sm-7 -->
+              <div class="col-md-5">
+                <img src="img/Client.png" alt="Image: Client">
+              </div>
+              <!-- /.col-sm-5 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="carousel-caption reviews__info">
+                  <h3 class="suptitle">Our Happy Client
+                  </h3>
+                  <h2>Testimonials</h2>
+                  <figure>
+                    <blockquote class="blockquote">
+                      <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem
+                        ipsum ese terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      <img src="img/Stars.png" alt="Image: Rating" class="">
+                      <cite title="Source Title">Mr. John Doe </cite>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!-- /.col-sm-7 -->
+              <div class="col-md-5">
+                <img src="img/Client.png" alt="Image: Client">
+              </div>
+              <!-- /.col-sm-5 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="help text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Need Help?</h3>
+          <h4>Don't Forget to Contact With Us</h4>
+          <p>Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus lorem ipsum ese
+            terds. Lorem ipsum dolor sit am et, consec tetur adipi scing elit. Sed sodales enim ut rhoncus.</p>
+          <form class="text-start text-md-center">
+            <div class="row">
+              <div class="col-lg-5 col-md-4">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="col-lg-5 col-md-4">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-md-2">
+                <button class="btn btn-violet btn-shadow" type="submit">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="socials">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-4 col-lg-2 socials-item">
+          <a herf="#">facebook</a>
+        </div>
+        <div class="col-sm-4 col-lg-2 socials-item">
+          <a herf="#">twitter</a>
+        </div>
+        <div class="col-sm-4 col-lg-2 socials-item">
+          <a herf="#">linkedin</a>
+        </div>
+        <div class="col-sm-4 col-lg-2 socials-item">
+          <a herf="#">instagram</a>
+        </div>
+        <div class="col-sm-4 col-lg-2 socials-item">
+          <a herf="#">behance</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 footer__info">
+            <div class="row footer__columns align-items-center text-center text-sm-start">
+              <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Approach</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Approach</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Approach</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Approach</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 footer__images">
+            <div class="row justify-content-center">
+              <div class="col-lg-6"><img src="img/05.jpg" alt="Image: Image"></div>
+              <div class="col-lg-6"><img src="img/06.jpg" alt="Image: Image"></div>
+              <div class="col-lg-6"><img src="img/07.jpg" alt="Image: Image"></div>
+              <div class="col-lg-6"><img src="img/08.jpg" alt="Image: Image"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="nav">
+              <li class="nav-item order-lg-0 order-1 text-center text-lg-start">
+                <span class="nav-link">&copy; 2022 Theme by psdfreebies.com</span>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Privacy</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Terms of Use</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Site Map</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button class="scrollToTop"><i class="fas fa-angle-up"></i></button>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/baguetteBox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
